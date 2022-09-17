@@ -31,6 +31,11 @@ addLayer("p", {
             description: "Double your point gain.",
             cost: new Decimal(1), 
             },
+            12: {
+                name: "More Appel-2",
+                description: "Double your point gain.",
+                cost: new Decimal(5), 
+                },
     }, 
     
 })
