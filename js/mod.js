@@ -2,7 +2,7 @@ let modInfo = {
 	name: "The apple Tree",
 	id: "42069hahaha",
 	author: "alma-maker",
-	pointsName: "points",
+	pointsName: "Appel",
 	modFiles: ["layers.js", "tree.js"],
 
 	discordName: "",
@@ -13,7 +13,7 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.0",
+	num: "1",
 	name: "Literally nothing",
 }
 
