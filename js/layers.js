@@ -34,8 +34,17 @@ addLayer("p", {
             12: {
                 name: "More Appel-2",
                 description: "Double your point gain.",
-                cost: new Decimal(5), 
+                cost: new Decimal(3), 
                 },
+                13: {
+                    name: "More Appel-3",
+                    description: "Gain sum more points.",
+                    cost: new Decimal(5), 
+                    effect() {
+                        return player[this.layer].points.add(1).pow(0.5)
+                    },
+                    effectDisplay() { return format(upgradeEffect(this.layer, this.id))+"x" }, // Add formatting to the effect
+                    },
     }, 
     
 })
